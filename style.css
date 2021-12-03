@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: #93C47D;
+}
+
+#tous {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titre {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.fa-recycle {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+#container {
+    margin-top: 30px;
+    background-color: #106900;
+    border-radius: 10px 10px;
+    padding: 30px;
+    font-size: 25px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#commencer {
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    background-color: #106900;
+    font-size: 25px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px 5px;
+}
+
+#game {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titre {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.fa-recycle {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+#conseil {
+    color: gray;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+#resultat {
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    background-color: #106900;
+    font-size: 25px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px 5px;
+}
+
+#last {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #106900;
+}
+
+#titre {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.fa-recycle {
+    font-size: 70px;
+    margin-left: 20px;
+}
+
+#savoir, #resultats {
+    margin-top: 30px;
+    background-color: #93C47D;
+    border-radius: 10px 10px;
+    padding: 30px;
+    font-size: 19px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#titelgame {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#tri {
+    margin-top: 10px;
+}
+
+.waste {
+    height: 20vh;
+    width: auto;
+}
+
+.waste:hover {
+    cursor: grab;
+}
+
+#wasteContainer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#buckets {
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+}
+
+#scrapyard {
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.hovered {
+    border-style: dashed;
+}
+
+.invisible {
+    opacity: 0;
+}
