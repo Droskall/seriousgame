@@ -15,6 +15,18 @@ let score = 0;
 
 const buckets = document.querySelectorAll(".bucket");
 
+// asign dropping functions to all buckets
+
+for (const bucket of buckets) {
+    bucket.addEventListener('dragover', dragOver);
+
+    bucket.addEventListener('dragenter', dragEnter);
+
+    bucket.addEventListener('dragleave', dragLeave);
+
+    bucket.addEventListener('drop', dragDrop);
+}
+
 // define function to display a new waste and remove the actual one from the array
 function newWaste () {
     const random = Math.floor(Math.random() * wastes.length);
@@ -78,16 +90,6 @@ function dragDrop(e) {
     newWaste()
 }
 
-// asign dropping functions to all buckets
 
-for (const bucket of buckets) {
-    bucket.addEventListener('dragover', dragOver);
-
-    bucket.addEventListener('dragenter', dragEnter);
-
-    bucket.addEventListener('dragleave', dragLeave);
-
-    bucket.addEventListener('drop', dragDrop);
-}
 
 localStorage.setItem("total", wastes.length + 1);
