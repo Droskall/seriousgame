@@ -89,7 +89,3 @@ function dragDrop(e) {
     }
     newWaste()
 }
-
-
-
-localStorage.setItem("total", wastes.length + 1);
